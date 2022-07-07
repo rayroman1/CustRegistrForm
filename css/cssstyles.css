@@ -6,14 +6,16 @@
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+
+ input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
-}
+} 
+
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
@@ -36,6 +38,15 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+}
+.showtxt{
+width: 20%;
+border: 1px solid grey;
+padding: 10px;
+text-align:center;
+text-transform:uppercase;
+color: #6c00fa;
+
 }
 
 .registerbtn:hover {

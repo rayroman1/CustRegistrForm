@@ -1,9 +1,14 @@
 function showtext(){
 
-var name = document.getElementById('email');
-var pasw = document.getElementById('pwd');
-var psr = document.getElementById('pwd-repeat');
+    const name = document.getElementById("form1");
 
-document.getElementById("show").innerHTML
-= email+"<br>"+pwd+"<br>"+pwd-repeat;
+
+    var email1=name.elements[0].value;
+ var pasw = name.elements[1].value;
+ var psr = name.elements[2].value;
+
+
+
+
+document.getElementById("show").innerHTML= email1+"<br>"+pasw+"<br>"+psr;
 }
